@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+.body {
+    color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 86px;
+    width: 82px;
+}
+
+.fondo {
+    position: static;
+    z-index: -1;
+    width: 1348px;
+    height: 225px;
+}
+
+#uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    margin: initial;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+#subtitulo {
+    color: rgba(0, 0, 0, 0.692);
+    margin-top: 50px;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.37);
+    margin-top: 13px;
+    margin-bottom: 51px;
+    font-size: 15px;
+}
+
+#boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 46px;
+    color: white;
+}
+
+
+#iOS {
+    border-radius: 20px;
+    border: 0;
+    width: 181px;
+    margin-right: 12px;
+    color: white;
+    background: rgb(107, 238, 157);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 14px;
+    box-shadow: 5px 5px rgba(99, 160, 140, 0.411);
+}
+#Mac {
+    border-radius: 20px;
+    border: 0;  
+    width: 181px;
+    color: white;
+    background: rgb(108, 108, 218);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 14px;
+    box-shadow: 5px 5px rgba(99, 113, 160, 0.411);
+
+}
+
+#com {
+    width: 685px;
+    height: 496px;
+    margin-right: 119px;
+}
+
+#dos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#doos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 74px;
+}
+
+.text {
+    margin: initial;
+    text-align: initial;
+}
+
+#tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+#trees {
+    margin-right: 58px;
+}
+
+#cuatro {
+    margin-bottom: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image {
+    margin-right: 82px;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: rgba(167, 175, 175, 0.205);
+    margin-top: 100px;
+    height: 117px;
+}
+
+#image_Pie{
+    width: 61px;
+}
+
+#botonT {
+    margin-right: 164px;
+    margin-left: 239px;
+}
+
+#boton_r, #boton_t {
+    border-color: transparent;
+}
+
+#boton_t {
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+#boton_t:hover {
+    color: rgb(68, 192, 151);
+}
+
+#boton_r:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    color: rgb(107, 238, 157);
+}
